@@ -9,9 +9,8 @@ package main
 
 import "fmt"
 
-
 func main() {
-	k := 15 //random number
+	k := 14 //random number
 	a := [10]int{ 4, 5, 2, 1, 7, 8, 10, 6, 12, 3 } //random list
 	fmt.Println("k value is: ", k)
 	fmt.Println("the list is: ", a)
