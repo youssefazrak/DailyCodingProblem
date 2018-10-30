@@ -37,7 +37,7 @@ func main() {
 		}
 
 		v = v1 * v2
-		b[i] = v
+		b[i] = v // another option to try is "b := append(b, v)"
 
 	}
 	fmt.Println(b)
